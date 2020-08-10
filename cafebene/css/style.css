@@ -1,0 +1,111 @@
+#wrap { width: 1500px; margin: 0 auto; }
+
+header { display: flex; justify-content: left; position: fixed; width: 100%; height: 120px; margin: 0 auto; z-index: 1000; background-color: #fff; }
+header > .logo > a > img { width: 150px; padding: 10px; padding-top: 20px; padding-left: 20px; }
+header > .gnb > ul { display: flex; justify-content: space-around; position: absolute; top: 20px; width: 80%; margin-top: 10px; }
+header > .gnb > ul > li { width: 20%; height: 50px; line-height: 50px; text-align: center; }
+header > .gnb > ul > li:hover > ul { display: block; background-color: #fff; }
+header > .gnb > ul > li > ul { display: none; border-radius: 15px; border: 1px solid #dedede; }
+header > .gnb > ul > li > ul > li { height: 50px; line-height: 50px; background-color: #fff; border-radius: 15px; }
+
+section { width: 80%; margin: 0 auto; padding-top: 95px; }
+section > .contents { position: relative; width: 1350px; height: 1450px; padding-top: 50px; }
+section > .contents > .main-content { padding-left: 20px; padding-bottom: 15px; font-size: 28px; color: #504f4f; }
+section > .contents > .main_Event { position: absolute; }
+section > .contents > .main_Event > li { float: left; width: 33%; height: 450px; }
+section > .contents > .main_Event > li:after { display: block; clear: both; content: ""; }
+section > .contents > .main_Event > .Benecar { position: relative; width: 20%; height: 330px; margin-left: 250px; position: relative; background-color: #dedede; border: 1px solid #dedede; }
+section > .contents > .main_Event > .Benecar > a > img { position: absolute; top: 0px; right: 0; width: 100%; }
+section > .contents > .main_Event > .Benecar:hover > ul { display: block; }
+section > .contents > .main_Event > .Benecar > .Event { position: absolute; top: 170px; left: 75px; font-size: 16px; font-weight: 700; }
+section > .contents > .main_Event > .Benecar > .Des { position: absolute; top: 220px; left: 40px; font-size: 15px; font-weight: 500; }
+section > .contents > .main_Event > .Benecar > ul { display: none; position: absolute; top: -35px; right: 0; }
+section > .contents > .main_Event > .Petstival { position: relative; width: 20%; height: 330px; margin-left: 50px; position: relative; background-color: #dedede; border: 1px solid #dedede; }
+section > .contents > .main_Event > .Petstival > a > img { position: absolute; top: 0px; right: 0; width: 100%; }
+section > .contents > .main_Event > .Petstival:hover > ul { display: block; }
+section > .contents > .main_Event > .Petstival > .Event { position: absolute; top: 170px; left: 75px; font-size: 16px; font-weight: 700; }
+section > .contents > .main_Event > .Petstival > .Des { position: absolute; top: 220px; left: 10px; font-size: 15px; font-weight: 500; text-align: center; }
+section > .contents > .main_Event > .Petstival > ul { display: none; position: absolute; top: -35px; right: 0; }
+section > .contents > .main_Event > .Suppoters { position: relative; width: 20%; height: 400px; margin-left: 50px; position: relative; background-color: #dedede; border: 1px solid #dedede; }
+section > .contents > .main_Event > .Suppoters > a > img { position: absolute; top: 0px; right: 0px; width: 100%; }
+section > .contents > .main_Event > .Suppoters:hover > ul { display: block; }
+section > .contents > .main_Event > .Suppoters > .Event { position: absolute; top: 270px; left: 75px; font-size: 16px; font-weight: 700; }
+section > .contents > .main_Event > .Suppoters > .Des { position: absolute; top: 310px; left: 30px; font-size: 15px; font-weight: 500; text-align: center; }
+section > .contents > .main_Event > .Suppoters > ul { display: none; position: absolute; top: -35px; right: 38px; }
+section > .contents > .main_Event > .Coffee { position: relative; width: 22%; height: 400px; margin-top: -30px; margin-left: 230px; position: relative; background-color: #dedede; border: 1px solid #dedede; }
+section > .contents > .main_Event > .Coffee > a > img { position: absolute; top: 0px; right: 0; width: 100%; }
+section > .contents > .main_Event > .Coffee:hover > ul { display: block; }
+section > .contents > .main_Event > .Coffee > .Event { position: absolute; top: 160px; left: 90px; font-size: 16px; font-weight: 700; }
+section > .contents > .main_Event > .Coffee > .Des { position: absolute; top: 200px; left: 10px; font-size: 15px; font-weight: 500; text-align: center; }
+section > .contents > .main_Event > .Coffee > ul { display: none; position: absolute; top: -35px; right: 0; }
+section > .contents > .main_Event > .Summer { position: relative; width: 22%; height: 400px; margin-top: -30px; margin-left: 30px; position: relative; background-color: #dedede; border: 1px solid #dedede; }
+section > .contents > .main_Event > .Summer > a > img { position: absolute; top: 0px; right: 0; width: 100%; }
+section > .contents > .main_Event > .Summer:hover > ul { display: block; }
+section > .contents > .main_Event > .Summer > .Event { position: absolute; top: 190px; left: 90px; font-size: 16px; font-weight: 700; }
+section > .contents > .main_Event > .Summer > .Des { position: absolute; top: 230px; left: 10px; font-size: 15px; font-weight: 500; text-align: center; }
+section > .contents > .main_Event > .Summer > ul { display: none; position: absolute; top: -35px; right: 0; }
+section > .contents > .main_Event > .Bingsu { position: relative; width: 20%; height: 400px; margin-top: 5px; margin-left: 50px; position: relative; background-color: #dedede; border: 1px solid #dedede; }
+section > .contents > .main_Event > .Bingsu > a > img { position: absolute; top: 0px; right: 0px; width: 100%; }
+section > .contents > .main_Event > .Bingsu:hover > ul { display: block; }
+section > .contents > .main_Event > .Bingsu > .Event { position: absolute; top: 270px; left: 90px; font-size: 16px; font-weight: 700; }
+section > .contents > .main_Event > .Bingsu > .Des { position: absolute; top: 305px; left: 30px; font-size: 15px; font-weight: 500; }
+section > .contents > .main_Event > .Bingsu > ul { display: none; position: absolute; top: -35px; right: 0; }
+section > .contents > .main_Event > .Haagen_dazs { position: relative; width: 22%; height: 470px; margin-top: -20px; margin-left: 230px; position: relative; background-color: #dedede; border: 1px solid #dedede; }
+section > .contents > .main_Event > .Haagen_dazs > a > img { position: absolute; top: 0px; right: 0px; width: 100%; }
+section > .contents > .main_Event > .Haagen_dazs:hover > ul { display: block; }
+section > .contents > .main_Event > .Haagen_dazs > .Event { position: absolute; top: 300px; left: 90px; font-size: 16px; font-weight: 700; }
+section > .contents > .main_Event > .Haagen_dazs > .Des { position: absolute; top: 340px; left: 0px; font-size: 15px; font-weight: 500; text-align: center; }
+section > .contents > .main_Event > .Haagen_dazs > ul { display: none; position: absolute; top: -35px; right: 0; }
+section > .contents > .main_Event > .Ilsan { position: relative; width: 22%; height: 400px; margin-top: -20px; margin-left: 30px; position: relative; background-color: #dedede; border: 1px solid #dedede; }
+section > .contents > .main_Event > .Ilsan > a > img { position: absolute; top: 0px; right: 0; width: 100%; }
+section > .contents > .main_Event > .Ilsan:hover > ul { display: block; }
+section > .contents > .main_Event > .Ilsan > .Event { position: absolute; top: 190px; left: 100px; font-size: 16px; font-weight: 700; }
+section > .contents > .main_Event > .Ilsan > .Des { position: absolute; top: 220px; left: 40px; font-size: 15px; font-weight: 500; text-align: center; }
+section > .contents > .main_Event > .Ilsan > ul { display: none; position: absolute; top: -35px; right: 0; }
+section > .contents > .main_Event > .Sungsudong { position: relative; width: 20%; height: 350px; margin-top: 5px; margin-left: 50px; background-color: #dedede; border: 1px solid #dedede; }
+section > .contents > .main_Event > .Sungsudong > a > img { position: absolute; top: 0px; right: 0; width: 100%; }
+section > .contents > .main_Event > .Sungsudong:hover > ul { display: block; }
+section > .contents > .main_Event > .Sungsudong > .Event { position: absolute; top: 170px; left: 80px; font-size: 16px; font-weight: 700; }
+section > .contents > .main_Event > .Sungsudong > .Des { position: absolute; top: 200px; left: 50px; font-size: 15px; font-weight: 500; text-align: center; }
+section > .contents > .main_Event > .Sungsudong > ul { display: none; position: absolute; top: -35px; right: 0; }
+section > .contents > .cafebene_special { display: flex; justify-content: space-around; position: relative; left: -75px; width: 90%; height: 350px; margin: 0 auto; margin-top: 1350px; background-image: url(../images/m-cafe-bg.jpg); border: 1px solid green; }
+section > .contents > .cafebene_special > li { text-align: center; }
+section > .contents > .cafebene_special > li > .text { margin-top: 10px; font-weight: 800; }
+section > .contents > .cafebene_special > li > a { display: inline-block; width: 150px; height: 30px; margin-top: 10px; line-height: 30px; color: #fff; background-color: #6d6d6d; border: 1px solid #dedede; border-radius: 15px; }
+section > .hello { width: 100%; height: 1250px; margin-top: 350px; }
+section > .hello > ul > li { float: left; }
+section > .hello > ul > li:nth-child(3) { position: relative; padding: 133px 80px; margin-top: -350px; background-color: #ececec; }
+section > .hello > ul > li:nth-child(4) { margin-top: -350px; }
+section > .hello > ul > li:nth-child(5) { margin-left: -596px; margin-top: 140px; }
+section > .hello > ul > li:nth-child(5) > a > img { width: 295px; }
+section > .hello > ul > li:nth-child(6) { margin-left: -301px; margin-top: 140px; }
+section > .hello > ul > li:nth-child(6) > a > img { height: 400px; }
+section > .hello > ul > li:nth-child(7) { margin-left: -113px; margin-top: 140px; }
+section > .hello > ul > li:nth-child(7) > img { height: 400px; }
+section > .hello > ul > li::after { display: block; clear: both; content: ""; }
+section > .other { position: relative; width: 600px; height: 500px; margin-top: -590px; margin-left: 720px; }
+section > .other > ul { display: flex; }
+section > .other > ul > li:nth-child(1) { position: absolute; top: 130px; left: 10px; }
+section > .other > ul > li:nth-child(1) > a { color: #fff; font-size: 24px; }
+section > .other > ul > li:nth-child(3) { position: absolute; top: 130px; left: 400px; z-index: 800; }
+section > .other > ul > li:nth-child(3) > a { color: #fff; font-size: 24px; }
+section > .other > ul > li:nth-child(4) { position: absolute; top: 0; left: 380px; }
+section > .other > ul > li:nth-child(5) { position: absolute; top: 450px; left: 200px; z-index: 800; }
+section > .other > ul > li:nth-child(5) > a { color: #fff; font-size: 24px; }
+section > .other > ul > li:nth-child(6) { position: absolute; top: 205px; left: 180px; }
+
+footer { width: 100%; margin-top: 90px; }
+footer > address { position: relative; width: 80%; margin: 0 auto; }
+footer > address > .footer_gnb { display: flex; justify-content: space-around; width: 100%; height: 50px; line-height: 50px; border-bottom: 5px solid black; }
+footer > address > .footer_gnb > li { width: 15%; text-align: center; }
+footer > address > .arr_top { position: absolute; top: -50px; left: 95%; }
+footer > address > .fot_li { position: relative; }
+footer > address > .fot_li > ul { display: flex; margin-top: 30px; }
+footer > address > .fot_li > ul > .fot_info { margin-left: 30px; }
+footer > address > .fot_li > ul > .fot_info > ul { width: 900px; }
+footer > address > .fot_li > ul > .fot_info > ul > li:nth-child(1) { float: left; margin-right: 50px; height: 25px; }
+footer > address > .fot_li > ul > .fot_info > ul > li:nth-child(2):after { display: block; clear: both; content: ""; }
+footer > address > .fot_li > ul > .fot_info > ul > li:nth-child(3) { float: left; margin-right: 24px; }
+footer > address > .fot_li > p { position: absolute; top: 80px; left: 150px; color: #dedede; }
+
+/*# sourceMappingURL=style.css.map */

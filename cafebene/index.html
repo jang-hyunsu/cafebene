@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <title>CAFEBENE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="../package/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="../package/swiper-bundle.min.js"></script>
+
+</head>
+
+<body>
+  <div id="wrap">
+    <header>
+      <div class="logo">
+        <a href="#">
+          <img src="./images/logo.png" alt="CafeBene_LOGO" />
+        </a>
+      </div>
+      <div class="gnb">
+        <ul>
+          <li>
+            <a href="#">
+              CAFEBENE
+            </a>
+            <ul>
+              <li><a href="#">브랜드 스토리</a></li>
+              <li><a href="#">베네캣 스토리</a></li>
+              <li><a href="#">카페베네 원두</a></li>
+              <li><a href="#">카페베네 소식</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">
+              MENU
+            </a>
+            <ul>
+              <li><a href="#">신메뉴</a></li>
+              <li><a href="#">커피</a></li>
+              <li><a href="#">음료</a></li>
+              <li><a href="#">디저트</a></li>
+              <li><a href="#">MD상품</a></li>
+              <li><a href="#">Retail</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">STORE</a>
+            <ul>
+              <li><a href="#">국내</a></li>
+              <li><a href="#">해외</a></li>
+            </ul>
+          </li>
+          <li>
+            MEMBERSHIP
+            <ul>
+              <li>등급&혜택</li>
+              <li>가입방법안내</li>
+              <li>서비스</li>
+              <li>FAQ</li>
+            </ul>
+          </li>
+          <li>
+            GLOBAL
+            <ul>
+              <li>해외매장안내</li>
+              <li>해외사업소개</li>
+              <li>해외가맹&유통문의</li>
+            </ul>
+          </li>
+          <li>
+            CONTENTS
+            <ul>
+              <li>커피</li>
+              <li>우리동네</li>
+              <li>사람들</li>
+              <li>메뉴</li>
+              <li>이벤트</li>
+              <li>매장</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <section>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><a href="#"><img src="./images/20200727965118.jpg" alt="slider_1" /></a></div>
+          <div class="swiper-slide"><a href="#"><img src="./images/20200716633605.jpg" alt="slider_2" /></a></div>
+          <div class="swiper-slide"><a href="#"><img src="./images/20200618181052.jpg" alt="slider_3" /></a></div>
+          <div class="swiper-slide"><a href="#"><img src="./images/20200617365886.jpg" alt="slider_4" /></a></div>
+          <div class="swiper-slide"><a href="#"><img src="./images/20200617612173.jpg" alt="slider_5" /></a></div>
+        </div>
+        <div class="swiper-scrollbar"></div>
+      </div>
+      <script>
+        var swiper = new Swiper('.swiper-container', {
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+          scrollbar: {
+            el: '.swiper-scrollbar',
+            hide: false,
+          },
+        });
+      </script>
+      <div class="contents">
+        <h1 class="main-content">
+          Contents
+        </h1>
+        <ul class="main_Event">
+          <li class="Benecar">
+            <a href="#"><img src="./images/20200708791589.png" alt="베네카_Evnet" /></a>
+            <a href="#" class="Event">이벤트</a><br />
+            <a href="#" class="Des">&mdash;베네카가 쏜다!</a>
+            <ul>
+              <li><img src="./images/cat1.png" alt="cat" /></li>
+            </ul>
+          </li>
+          <li class="Petstival">
+            <a href="#"><img src="./images/20200727943502.jpg" alt="펫스티벌_Evnet" /></a>
+            <a href="#" class="Event">이벤트</a><br />
+            <a href="#" class="Des">&mdash;펫스티벌 MD 출시기념 이벤트</a>
+            <ul>
+              <li><img src="./images/cat2.png" alt="cat" /></li>
+            </ul>
+          </li>
+          <li class="Suppoters">
+            <a href="#"><img src="./images/20200723381579.png" alt="카페베네_서포터즈" /></a>
+            <a href="#" class="Event">이벤트</a><br />
+            <a href="#" class="Des">&mdash;카페베네 서포터즈<br /> 베테랑 모집</a>
+            <ul>
+              <li><img src="./images/cat3.png" alt="cat" /></li>
+            </ul>
+          </li>
+          <li class="Coffee">
+            <a href="#"><img src="./images/20200723429425.jpg" alt="커피_생두" /></a>
+            <a href="#" class="Event">커피</a><br />
+            <a href="#" class="Des">&mdash;알고 마시면 더 맛있는 커피<br />(#3 생두 편)</a>
+            <ul>
+              <li><img src="./images/cat4.png" alt="cat" /></li>
+            </ul>
+          </li>
+          <li class="Summer">
+            <a href="#"><img src="./images/20200618924372.jpg" alt="여름_제철_과일" /></a>
+            <a href="#" class="Event">메뉴</a><br />
+            <a href="#" class="Des">&mdash;카페베네와 함께 여름 제철<br /> 과일을 즐기는 방법</a>
+            <ul>
+              <li><img src="./images/cat5.png" alt="cat" /></li>
+            </ul>
+          </li>
+          <li class="Bingsu">
+            <a href="#"><img src="./images/20200618217352.jpg" alt="빙수_맛집" /></a>
+            <a href="#" class="Event">메뉴</a><br />
+            <a href="#" class="Des">&mdash;우리동네 빙수맛집</a>
+            <ul>
+              <li><img src="./images/cat1.png" alt="cat" /></li>
+            </ul>
+          </li>
+          <li class="Haagen_dazs">
+            <a href="#"><img src="./images/20200619172512.jpg" alt="하겐다즈_콜라보" /></a>
+            <a href="#" class="Event">이벤트</a><br />
+            <a href="#" class="Des">&mdash;카페베네와 하겐다즈가<br /> 선착순 2만명에서 시원하게 쏜다!</a>
+            <ul>
+              <li><img src="./images/cat2.png" alt="cat" /></li>
+            </ul>
+          </li>
+          <li class="Ilsan">
+            <a href="#"><img src="./images/20200622692280.jpg" alt="일산호수공원_카페베네" /></a>
+            <a href="#" class="Event">매장</a><br />
+            <a href="#" class="Des">&mdash;OPEN/일산호수공원<br /> 카페베네</a>
+            <ul>
+              <li><img src="./images/cat3.png" alt="cat" /></li>
+            </ul>
+          </li>
+          <li class="Sungsudong">
+            <a href="#"><img src="./images/20200618532489.jpg" alt="성수동클래스" /></a>
+            <a href="#" class="Event">커피</a><br />
+            <a href="#" class="Des">&mdash;성수동클래스<br />#더블샷라떼</a>
+            <ul>
+              <li><img src="./images/cat4.png" alt="cat" /></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="cafebene_special">
+          <li>
+            <img src="./images/20200607331899.jpg" alt="내가_오픈하고_싶은_카페" />
+            <p class="text">내가 오픈하고 싶은 카페</p><br />
+            <p class="text_des">동네와 공간, 저마다의<br />특별함과 다양함은 모두 다르니까요</p>
+            <a href="#">인테리어 보기</a>
+          </li>
+          <li>
+            <img src="./images/20200607773031.jpg" alt="가맹_개설_안내" />
+            <p class="text">가맹 개설 안내</p><br />
+            <p class="text_des">가맹점 개설을 위한 절차를<br />자세하게 안내드립니다</p>
+            <a href="#">개설절차보기</a>
+          </li>
+          <li>
+            <img src="./images/20200607373847.jpg" alt="베네_운영_꿀팁" />
+            <p class="text">베네 운영 꿀팁</p><br />
+            <p class="text-des">카페베네 점주님들을 위한<br />실용 만점 운영 꿀팁 모음</p>
+            <a href="#">매장꿀팁 보기</a>
+          </li>
+        </ul>
+      </div>
+      <div class="hello">
+        <ul>
+          <li><img src="./images/20200623430813.jpg" alt="hello_again" /></li>
+          <li><a href="#"><img src="./images/20200623802367.gif" alt="coffee" /></a></li>
+          <li>
+            <a href="#">
+              <img src="./images/20200623865131.gif" alt="catlogo" />
+              <br />'좋은'사람들이<br />
+              '좋은'원두로<br />
+              '좋은'커피를 내리는곳<br />
+              바로 카페베네입니다.<br />
+            </a>
+          </li>
+          <li><a href="#"><img src="./images/20200623383159.jpg" alt="cat" /></a></li>
+          <li><a href="#"><img src="./images/20200623927998.png" alt="coffeetree" /></a></li>
+          <li><a href="#"><img src="./images/20200623492830.png" alt="coffeerosting" /></a></li>
+          <li><img src="./images/20200623873281.jpg" alt="bright" /></li>
+        </ul>
+      </div>
+      <div class="other">
+        <ul>
+          <li>
+            <a href="#">
+              Event
+              <p>+</p>
+            </a>
+          </li>
+          <li><a href="#"><img src="./images/ha-event.jpg" alt="Event" /></a></li>
+          <li>
+            <a href="#">
+              News
+              <p>+</p>
+            </a>
+          </li>
+          <li><a href="#"><img src="./images/ha-news.jpg" alt="News" /></a></li>
+          <li>
+            <a href="#">
+              BENE Shop
+              <p>+</p>
+            </a>
+          </li>
+          <li><a href="#"><img src="./images/pho-ar5.jpg" alt="BENE_Shop" /></a></li>
+        </ul>
+      </div>
+    </section>
+    <footer>
+      <address>
+        <ul class="footer_gnb">
+          <li><a href="#">오시는길</a></li>
+          <li><a href="#">제휴문의</a></li>
+          <li><a href="#">개인정보 처리방침</a></li>
+          <li><a href="#">이용약관</a></li>
+          <li><a href="#">고객센터 1688-4666</a></li>
+        </ul>
+        <div class="arr_top">
+          <img src="./images/ico-arr-top.png" alt="arr-top" />
+        </div>
+        <div class="fot_li">
+          <ul>
+            <li class="fot_logo"><img src="./images/footer-logo.png" alt="footer_logo" /></li>
+            <li class="fot_info">
+              <ul>
+                <li>서울시 성동구 상원1길 25</li>
+                <li>대표이사 박혜경</li>
+                <li>사업자등록번호 206-86-29161</li>
+                <li>benecs@caffebene.co.kr</li>
+              </ul>
+            </li>
+            <li class=li_sns>
+              <a href="#"><img src="./images/ico-fb.png" alt="facebook" /></a>
+              <a href="#"><img src="./images/ico-insta.png" alt="instargram" /></a>
+              <a href="#"><img src="./images/ico-youtub.png" alt="youtube" /></a>
+              <a href="#"><img src="./images/ico-app.png" alt="app" /></a>
+            </li>
+          </ul>
+          <p>Copyright&copy; by Caffebene,All right reserved.</p>
+        </div>
+      </address>
+    </footer>
+  </div>
+</body>
+
+</html>

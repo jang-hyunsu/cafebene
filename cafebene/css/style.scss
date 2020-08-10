@@ -1,0 +1,725 @@
+@charset 'utf-8';
+#wrap {
+	width: 1500px;
+	margin: 0 auto;
+	// border: 4px solid red;
+}
+header {
+	display: flex;
+	justify-content: left;
+	position: fixed;
+	width: 100%;
+	height: 120px;
+	margin: 0 auto;
+	z-index: 1000;
+	background-color: #fff;
+	// border: 1px solid pink;
+	> .logo > a > img {
+		width: 150px;
+		padding: 10px;
+		padding-top: 20px;
+		padding-left: 20px;
+		// padding-left: 0px;
+		// margin-left: 30px;
+		// border: 1px solid black;
+	}
+	> .gnb > ul {
+		display: flex;
+		justify-content: space-around;
+		position: absolute;
+		top: 20px;
+		width: 80%;
+		margin-top: 10px;
+		// margin-left: 0px;
+		// border: 1px solid red;
+		> li {
+			width: 20%;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			// border: 1px solid purple;
+			&:hover {
+				// transition: all 10s ease-in-out;
+				> ul {
+					display: block;
+					background-color: #fff;
+					// border: 1px solid #dedede;
+					// opacity: 0.5;
+				}
+			}
+			> ul {
+				display: none;
+				border-radius: 15px;
+				border: 1px solid #dedede;
+				> li {
+					height: 50px;
+					line-height: 50px;
+					background-color: #fff;
+					// border: 1px solid black;
+					border-radius: 15px;
+				}
+			}
+		}
+	}
+}
+section {
+	// overflow: hidden;
+	// position: relative;
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 95px;
+	// margin-top: 50px;
+	// border: 1px solid red;
+	> .contents {
+		position: relative;
+		width: 1350px;
+		height: 1450px;
+		padding-top: 50px;
+		// border: 1px solid blue;
+		> .main-content {
+			padding-left: 20px;
+			padding-bottom: 15px;
+			font-size: 28px;
+			color: rgb(80, 79, 79);
+			// border: 1px solid red;
+		}
+		> .main_Event {
+			position: absolute;
+			// border: 1px solid red;
+			> li {
+				float: left;
+				width: 33%;
+				height: 450px;
+				// border: 1px solid black;
+				&:after {
+					display: block;
+					clear: both;
+					content: "";
+				}
+			}
+			> .Benecar {
+				position: relative;
+				width: 20%;
+				height: 330px;
+				margin-left: 250px;
+				position: relative;
+				background-color: #dedede;
+				border: 1px solid #dedede;
+				> a > img {
+					position: absolute;
+					top: 0px;
+					right: 0;
+					width: 100%;
+					// border: 4px solid 2px solid blue;
+				}
+				&:hover > ul {
+					display: block;
+					// border: 3px solid black;
+				}
+				> .Event {
+					position: absolute;
+					top: 170px;
+					left: 75px;
+					font-size: 16px;
+					font-weight: 700;
+					// line-height: 30px;
+					// border: 4px solid black;
+				}
+				> .Des {
+					position: absolute;
+					top: 220px;
+					left: 40px;
+					font-size: 15px;
+					font-weight: 500;
+				}
+				> ul {
+					display: none;
+					position: absolute;
+					top: - 35px;
+					right: 0;
+				}
+			}
+			> .Petstival {
+				position: relative;
+				width: 20%;
+				height: 330px;
+				margin-left: 50px;
+				position: relative;
+				background-color: #dedede;
+				border: 1px solid #dedede;
+				> a > img {
+					position: absolute;
+					top: 0px;
+					right: 0;
+					width: 100%;
+					// border: 4px solid 2px solid blue;
+				}
+				&:hover > ul {
+					display: block;
+					// border: 3px solid black;
+				}
+				> .Event {
+					position: absolute;
+					top: 170px;
+					left: 75px;
+					font-size: 16px;
+					font-weight: 700;
+					// line-height: 30px;
+					// border: 4px solid black;
+				}
+				> .Des {
+					position: absolute;
+					top: 220px;
+					left: 10px;
+					font-size: 15px;
+					font-weight: 500;
+					text-align: center;
+				}
+				> ul {
+					display: none;
+					position: absolute;
+					top: - 35px;
+					right: 0;
+				}
+			}
+			> .Suppoters {
+				position: relative;
+				width: 20%;
+				height: 400px;
+				margin-left: 50px;
+				position: relative;
+				background-color: #dedede;
+				border: 1px solid #dedede;
+				> a > img {
+					position: absolute;
+					top: 0px;
+					right: 0px;
+					width: 100%;
+					// border: 4px solid 2px solid blue;
+				}
+				&:hover > ul {
+					display: block;
+					// border: 3px solid black;
+				}
+				> .Event {
+					position: absolute;
+					top: 270px;
+					left: 75px;
+					font-size: 16px;
+					font-weight: 700;
+					// line-height: 30px;
+					// border: 4px solid black;
+				}
+				> .Des {
+					position: absolute;
+					top: 310px;
+					left: 30px;
+					font-size: 15px;
+					font-weight: 500;
+					text-align: center;
+					// border: 1px solid black;
+				}
+				> ul {
+					display: none;
+					position: absolute;
+					top: - 35px;
+					right: 38px;
+				}
+			}
+			> .Coffee {
+				position: relative;
+				width: 22%;
+				height: 400px;
+				margin-top: -30px;
+				margin-left: 230px;
+				position: relative;
+				background-color: #dedede;
+				border: 1px solid #dedede;
+				> a > img {
+					position: absolute;
+					top: 0px;
+					right: 0;
+					width: 100%;
+					// border: 4px solid 2px solid blue;
+				}
+				&:hover > ul {
+					display: block;
+					// border: 3px solid black;
+				}
+				> .Event {
+					position: absolute;
+					top: 160px;
+					left: 90px;
+					font-size: 16px;
+					font-weight: 700;
+					// line-height: 30px;
+					// border: 4px solid black;
+				}
+				> .Des {
+					position: absolute;
+					top: 200px;
+					left: 10px;
+					font-size: 15px;
+					font-weight: 500;
+					text-align: center;
+					// border: 1px solid black;
+				}
+				> ul {
+					display: none;
+					position: absolute;
+					top: - 35px;
+					right: 0;
+				}
+			}
+			> .Summer {
+				position: relative;
+				width: 22%;
+				height: 400px;
+				margin-top: -30px;
+				margin-left: 30px;
+				position: relative;
+				background-color: #dedede;
+				border: 1px solid #dedede;
+				> a > img {
+					position: absolute;
+					top: 0px;
+					right: 0;
+					width: 100%;
+					// border: 4px solid 2px solid blue;
+				}
+				&:hover > ul {
+					display: block;
+					// border: 3px solid black;
+				}
+				> .Event {
+					position: absolute;
+					top: 190px;
+					left: 90px;
+					font-size: 16px;
+					font-weight: 700;
+					// line-height: 30px;
+					// border: 4px solid black;
+				}
+				> .Des {
+					position: absolute;
+					top: 230px;
+					left: 10px;
+					font-size: 15px;
+					font-weight: 500;
+					text-align: center;
+					// border: 1px solid black;
+				}
+				> ul {
+					display: none;
+					position: absolute;
+					top: - 35px;
+					right: 0;
+				}
+			}
+			> .Bingsu {
+				position: relative;
+				width: 20%;
+				height: 400px;
+				margin-top: 5px;
+				margin-left: 50px;
+				position: relative;
+				background-color: #dedede;
+				border: 1px solid #dedede;
+				> a > img {
+					position: absolute;
+					top: 0px;
+					right: 0px;
+					width: 100%;
+					// border: 4px solid 2px solid blue;
+				}
+				&:hover > ul {
+					display: block;
+					// border: 3px solid black;
+				}
+				> .Event {
+					position: absolute;
+					top: 270px;
+					left: 90px;
+					font-size: 16px;
+					font-weight: 700;
+					// line-height: 30px;
+					// border: 4px solid black;
+				}
+				> .Des {
+					position: absolute;
+					top: 305px;
+					left: 30px;
+					font-size: 15px;
+					font-weight: 500;
+					// border: 1px solid black;
+				}
+				> ul {
+					display: none;
+					position: absolute;
+					top: - 35px;
+					right: 0;
+				}
+			}
+			> .Haagen_dazs {
+				position: relative;
+				width: 22%;
+				height: 470px;
+				margin-top: -20px;
+				margin-left: 230px;
+				position: relative;
+				background-color: #dedede;
+				border: 1px solid #dedede;
+				> a > img {
+					position: absolute;
+					top: 0px;
+					right: 0px;
+					width: 100%;
+					// border: 4px solid 2px solid blue;
+				}
+				&:hover > ul {
+					display: block;
+					// border: 3px solid black;
+				}
+				> .Event {
+					position: absolute;
+					top: 300px;
+					left: 90px;
+					font-size: 16px;
+					font-weight: 700;
+					// line-height: 30px;
+					// border: 4px solid black;
+				}
+				> .Des {
+					position: absolute;
+					top: 340px;
+					left: 0px;
+					font-size: 15px;
+					font-weight: 500;
+					text-align: center;
+					// border: 1px solid black;
+				}
+				> ul {
+					display: none;
+					position: absolute;
+					top: - 35px;
+					right: 0;
+				}
+			}
+			> .Ilsan {
+				position: relative;
+				width: 22%;
+				height: 400px;
+				margin-top: -20px;
+				margin-left: 30px;
+				position: relative;
+				background-color: #dedede;
+				border: 1px solid #dedede;
+				> a > img {
+					position: absolute;
+					top: 0px;
+					right: 0;
+					width: 100%;
+					// border: 4px solid 2px solid blue;
+				}
+				&:hover > ul {
+					display: block;
+					// border: 3px solid black;
+				}
+				> .Event {
+					position: absolute;
+					top: 190px;
+					left: 100px;
+					font-size: 16px;
+					font-weight: 700;
+					// line-height: 30px;
+					// border: 4px solid black;
+				}
+				> .Des {
+					position: absolute;
+					top: 220px;
+					left: 40px;
+					font-size: 15px;
+					font-weight: 500;
+					text-align: center;
+					// border: 1px solid black;
+				}
+				> ul {
+					display: none;
+					position: absolute;
+					top: - 35px;
+					right: 0;
+				}
+			}
+			> .Sungsudong {
+				position: relative;
+				width: 20%;
+				height: 350px;
+				margin-top: 5px;
+				margin-left: 50px;
+				background-color: #dedede;
+				border: 1px solid #dedede;
+				> a > img {
+					position: absolute;
+					top: 0px;
+					right: 0;
+					width: 100%;
+					// border: 4px solid 2px solid blue;
+				}
+				&:hover > ul {
+					display: block;
+					// border: 3px solid black;
+				}
+				> .Event {
+					position: absolute;
+					top: 170px;
+					left: 80px;
+					font-size: 16px;
+					font-weight: 700;
+					// line-height: 30px;
+					// border: 4px solid black;
+				}
+				> .Des {
+					position: absolute;
+					top: 200px;
+					left: 50px;
+					font-size: 15px;
+					font-weight: 500;
+					text-align: center;
+					// border: 1px solid black;
+				}
+				> ul {
+					display: none;
+					position: absolute;
+					top: - 35px;
+					right: 0;
+				}
+			}
+		}
+		> .cafebene_special {
+			display: flex;
+			justify-content: space-around;
+			position: relative;
+			left: -75px;
+			width: 90%;
+			height: 350px;
+			margin: 0 auto;
+			margin-top: 1350px;
+			background-image: url(../images/m-cafe-bg.jpg);
+			border: 1px solid green;
+			> li {
+				text-align: center;
+				// border: 1px solid red;
+				> img {
+				}
+				> .text {
+					margin-top: 10px;
+					font-weight: 800;
+				}
+				> a {
+					display: inline-block;
+					width: 150px;
+					height: 30px;
+					margin-top: 10px;
+					line-height: 30px;
+					color: #fff;
+					background-color: #6d6d6d;
+					border: 1px solid #dedede;
+					border-radius: 15px;
+				}
+			}
+		}
+	} //end content
+
+	> .hello {
+		// flex-direction: column;
+		width: 100%;
+		height: 1250px;
+		margin-top: 350px;
+		// border: 1px solid black;
+		// background-image: url(../images/m-cafe-bg.jpg);
+		> ul {
+			// border: 1px solid red;
+			> li {
+				float: left;
+				&:nth-child(1) {
+					// border: 1px solid blue;
+				}
+				&:nth-child(2) {
+					// width: 00px;
+					// border: 1px solid blue;
+				}
+				&:nth-child(3) {
+					position: relative;
+					// width: 280px;
+					// height: 480px;
+					padding: 133px 80px;
+					margin-top: -350px;
+					background-color: rgb(236, 236, 236);
+					// border: 1px solid blue;
+				}
+				&:nth-child(4) {
+					margin-top: -350px;
+					// border: 1px solid blue;
+				}
+				&:nth-child(5) {
+					// width: 150px;
+					margin-left: -596px;
+					margin-top: 140px;
+					// border: 1px solid blue;
+					> a > img {
+						width: 295px;
+					}
+				}
+				&:nth-child(6) {
+					margin-left: -301px;
+					margin-top: 140px;
+					// border: 1px solid blue;
+					> a > img {
+						height: 400px;
+					}
+				}
+				&:nth-child(7) {
+					margin-left: -113px;
+					margin-top: 140px;
+					// border: 1px solid blue;
+					> img {
+						height: 400px;
+					}
+				}
+				&::after {
+					display: block;
+					clear: both;
+					content: "";
+				}
+			}
+		}
+	}
+	> .other {
+		position: relative;
+		width: 600px;
+		height: 500px;
+		margin-top: -590px;
+		margin-left: 720px;
+		// border: 1px solid red;
+		> ul {
+			display: flex;
+			> li {
+				&:nth-child(1) {
+					position: absolute;
+					top: 130px;
+					left: 10px;
+					> a {
+						color: #fff;
+						// text-align: center;
+						font-size: 24px;
+					}
+				}
+				&:nth-child(3) {
+					position: absolute;
+					top: 130px;
+					left: 400px;
+					z-index: 800;
+					> a {
+						color: #fff;
+						font-size: 24px;
+					}
+				}
+				&:nth-child(4) {
+					position: absolute;
+					top: 0;
+					left: 380px;
+				}
+				&:nth-child(5) {
+					position: absolute;
+					top: 450px;
+					left: 200px;
+					z-index: 800;
+					> a {
+						color: #fff;
+						font-size: 24px;
+					}
+				}
+				&:nth-child(6) {
+					position: absolute;
+					top: 205px;
+					left: 180px;
+				}
+			}
+		}
+	}
+} //end section
+footer {
+	width: 100%;
+	margin-top: 90px;
+	// border: 1px solid blue;
+	> address {
+		position: relative;
+		width: 80%;
+		margin: 0 auto;
+		> .footer_gnb {
+			display: flex;
+			justify-content: space-around;
+			width: 100%;
+			height: 50px;
+			line-height: 50px;
+			// border: 1px solid black;
+			border-bottom: 5px solid black;
+			> li {
+				width: 15%;
+				text-align: center;
+				// border: 1px solid red;
+			}
+		}
+		> .arr_top {
+			position: absolute;
+			top: -50px;
+			left: 95%;
+		}
+		> .fot_li {
+			position: relative;
+			// width: 50%;
+			// border: 1px solid red;
+			> ul {
+				display: flex;
+				margin-top: 30px;
+				// border: 1px solid blue;
+				> .fot_info {
+					margin-left: 30px;
+					> ul {
+						// float: left;
+						width: 900px;
+						// height: 300px;
+						// border: 1px solid red;
+						> li {
+							// border: 1px solid blue;
+							&:nth-child(1) {
+								float: left;
+								margin-right: 50px;
+								height: 25px;
+								// border: 1px solid black;
+							}
+							&:nth-child(2) {
+								&:after {
+									display: block;
+									clear: both;
+									content: "";
+								}
+							}
+							&:nth-child(3) {
+								float: left;
+								margin-right: 24px;
+								// border: 1px solid black;
+							}
+						}
+					}
+				}
+			}
+			> p {
+				position: absolute;
+				top: 80px;
+				left: 150px;
+				color: #dedede;
+			}
+		}
+	}
+}
